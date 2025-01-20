@@ -1,6 +1,6 @@
-## Package
+# Package
 
-### Definição de um package
+## Definição de um package
 ```go
 // Cada programa Go é composto de pacotes onde o pacote de entrada é o `main`.
 package main
@@ -13,7 +13,7 @@ import (
 )
 ```
 
-### Importação
+## Importação
 ```go
 package main
 
@@ -30,7 +30,7 @@ import (
 )
 ```
 
-### Exportação
+## Exportação
 ```go
 package main
 

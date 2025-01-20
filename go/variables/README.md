@@ -1,6 +1,6 @@
-### Variáveis
+# Variáveis
 
-#### Declaração
+## Declaração
 ```go
 // A instrução `var` declara uma lista de variáveis com o tipo sendo o último passado,
 // também podendo ser passado um inicializado
@@ -15,7 +15,7 @@ func main() {
 }
 ```
 
-#### Tipos básicos
+## Tipos básicos
 | Tipo        | Valor Padrão     | Descrição                           |
 |-------------|------------------|-------------------------------------|
 | `bool`      | `false`          |                                     |
@@ -41,10 +41,17 @@ func main() {
 **OBS**: Os tipos `int`, `uint` e `uintptr` são geralmente de 32 bits em sistemas de 32 bits
 e 64 bits em sistemas de 64 bits.
 
-#### Converção
+## Converção
 ```go
 // A expressão `T(v)` converte o valor `v` para o tipo `T`
 var i int = 42
 var f float64 = float64(i)
 var u uint = uint(f)
+```
+
+## Constantes
+```go
+// Constantes são declaradas usando a palavra const e podem ser declaradas dentro
+// ou fora de uma função.
+const Pi = 3.14
 ```

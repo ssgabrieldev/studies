@@ -1,6 +1,6 @@
-###  Funções
+#  Funções
 
-#### Parametros
+## Parametros
 ```go
 // Quando dois ou mais parâmetros nomeados consecutivos de uma função compartilham
 // o mesmo tipo, você pode omitir o tipo de todos menos o útimo pois **o tipo vem à direita**
@@ -9,7 +9,7 @@ func add(x, y int) int {
 }
 ```
 
-#### Retorno
+## Retorno
 ```go
 // Uma função pode retornar qualquer número de resultados
 func swap(x, y string) (string, string) {
