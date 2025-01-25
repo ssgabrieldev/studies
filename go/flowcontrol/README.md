@@ -1,5 +1,4 @@
 # Estruturas de controle
-
 ## Estrutura for
 **OBS:** Go tem apenas uma estrutura de laço, o `for`.
 
